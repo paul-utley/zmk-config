@@ -19,23 +19,23 @@
 // | SHIFT |  Z  |  X  |  C   |  D   |  V   |  SYMBOL |   FUN   |  |   NAV   |  SYMBOL |  K   |  H    |  ,    |  .   |   /   | SHIFT |
 //                     | ALT  | CTL  | GUI  |  SPACE  |   RET   |  |   RET   |  SPACE  | GUI  | CTL   | R-ALT |
             bindings = <
-    &kp TAB       &kp Q &kp W &kp F &kp P   &kp B                                                     &kp J &kp L  &kp U     &kp Y   &kp MINUS &kp SEMI
-    &mt LGUI BSPC &kp A &kp R &kp S &kp T   &kp G                                                     &kp M &kp N  &kp E     &kp I   &kp O     &kp APOS
-    &kp LSHFT     &kp Z &kp X &kp C &kp D   &kp V   &kp UP      &kp DOWN       &kp LEFT  &kp RIGHT    &kp K &kp H  &kp COMMA &kp DOT &kp FSLH  &kp RSHFT
-                        &kp LGUI    &kp DEL &kp RET &lt 1 SPACE &lt 2 RET      &lt 2 RET &lt 1 SPACE  &kp RET &kp BSPC &kp RALT
+    &kp TAB       &kp Q &kp W &kp F &kp P    &kp B                                                     &kp J   &kp L    &kp U     &kp Y   &kp MINUS &kp SEMI
+    &mt LGUI BSPC &kp A &kp R &kp S &kp T    &kp G                                                     &kp M   &kp N    &kp E     &kp I   &kp O     &kp APOS
+    &kp LSHFT     &kp Z &kp X &kp C &kp D    &kp V   &kp UP      &kp DOWN      &kp LEFT  &kp RIGHT     &kp K   &kp H    &kp COMMA &kp DOT &kp FSLH  &kp RSHFT
+                        &kp RALT    &kp LGUI &kp RET &lt 1 SPACE &lt 2 LCTL    &lt 2 LCTL &lt 1 SPACE  &kp RET &kp LGUI &kp RALT
             >;
         };
         symbol_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |  ~    |  &  |  {  |  *   |  }   |  `   |                                          |  |   |  7    |  8    |  9   |   -   |   ;   |
-// |  DEL  |  $  |  (  |  %   |  )   |  ^   |                                          |  +   |  4    |  5    |  6   |   =   |   '   |
+// |  LGUI  |  $  |  (  |  %   |  )   |  ^   |                                          |  +   |  4    |  5    |  6   |   =   |   '   |
 // | SHIFT |  !  |  [  |  @   |  ]   |  #   |  SYMBOL |   NAV   |  |   FUN   |  SYMBOL |  \   |  1    |  2    |  3   |   _   | SHIFT |
 //                     | ALT  | CTL  | GUI  |  SPACE  |   RET   |  |   RET   |  0      |  .   |  CTL  | R-ALT |
             bindings = <
-    &kp TILDE &kp AMPS &kp LBRC &kp STAR  &kp RBRC &kp GRAVE                                              &kp PIPE &kp N7  &kp N8 &kp N9 &kp MINUS &kp SEMI
-    &kp DEL   &kp DLLR &kp LPAR &kp PRCNT &kp RPAR &kp CARET                                              &kp PLUS &kp N4  &kp N5 &kp N6 &kp EQUAL &kp APOS
-    &kp LSHFT &kp EXCL &kp LBKT &kp AT    &kp RBKT &kp POUND &trans    &trans           &trans   &trans  &kp BSLH &kp N1  &kp N2 &kp N3 &kp UNDER &kp RSHFT
-                                &kp LGUI  &kp DEL  &kp LGUI  &kp SPACE &kp RET          &kp RET  &kp N0  &kp DOT  &kp BSPC &kp RALT
+    &kp TILDE &kp AMPS &kp LBRC &kp STAR  &kp RBRC &kp GRAVE                                                     &kp PIPE &kp N7  &kp N8 &kp N9 &kp MINUS &kp SEMI
+    &kp DEL   &kp DLLR &kp LPAR &kp PRCNT &kp RPAR &kp CARET                                                     &kp PLUS &kp N4   &kp N5 &kp N6 &kp EQUAL &kp APOS
+    &kp LSHFT &kp EXCL &kp LBKT &kp AT    &kp RBKT &kp POUND &trans    &trans           &trans      &trans       &kp BSLH &kp N1   &kp N2 &kp N3 &kp UNDER &kp RSHFT
+                                &kp RALT  &kp LGUI &kp RET &lt 1 SPACE &lt 2 LCTL        &lt 2 LCTL &lt 1 SPACE  &kp RET  &kp LGUI &kp RALT
             >;
         };
         function_layer {

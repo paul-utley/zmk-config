@@ -60,7 +60,6 @@
                            &trans   &trans    &trans &trans &trans        &trans &trans &trans &trans   &trans
             >;
         };
-    };
     function_layer {
 // ---------------------------------------------------------------------------------------------------------------------------------
 // |       |      |BT_CLR|BTSEL0|BTSEL1|BTSEL2|                                         |      |      |      |      |      |      |

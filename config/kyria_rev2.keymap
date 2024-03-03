@@ -46,7 +46,7 @@
     &kp TILDE     &kp AMPS &kp LBRC &kp STAR  &kp RBRC &kp GRAVE                                                &kp PIPE &kp N7  &kp N8 &kp N9 &kp MINUS &kp SEMI
     &mt LGUI DEL  &kp DLLR &kp LPAR &kp PRCNT &kp RPAR &kp CARET                                                &kp PLUS &kp N4   &kp N5 &kp N6 &kp EQUAL &kp APOS
     &kp LSHFT     &kp EXCL &kp LBKT &kp AT    &kp RBKT &kp POUND &trans      &trans         &trans   &trans     &kp BSLH &kp N1   &kp N2 &kp N3 &kp UNDER &kp RSHFT
-                                    &kp RALT  &kp LGUI &kp LCTRL &lt SPACE   &lt RET        &kp RET  &kp N0     &kp DOT  &kp LGUI &kp RALT
+                                    &kp RALT  &kp LGUI &kp LCTRL &kp SPACE   &kp RET        &kp RET  &kp N0     &kp DOT  &kp LGUI &kp RALT
             >;
         };
         navigation_layer {
